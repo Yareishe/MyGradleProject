@@ -34,7 +34,10 @@ bin/
 /dist/
 /nbdist/
 /.nb-gradle/
-
+/test
+/gradle
+/.idea
+/.gradle
 ### VS Code ###
 .vscode/
 
