@@ -25,6 +25,10 @@ jar {
     }
 }
 
-test {
+tasks.test {
     useJUnitPlatform()
+}
+
+tasks.jar {
+    archiveFileName.set("myname.jar")
 }
